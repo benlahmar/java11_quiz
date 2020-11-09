@@ -4,6 +4,7 @@
 package com.moi;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -17,7 +18,7 @@ public class Quiz {
 	String description;
 	LocalDateTime date;
 	
-	List<Question> questions;
+	List<Question> questions=new ArrayList<Question>();
 
 	QuizConfig config;
 	
