@@ -3,6 +3,7 @@
  */
 package com.moi;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -14,7 +15,7 @@ public class Question {
 	int idq;
 	String question;
 	String type;
-	List<Reponse> reponses;
+	List<Reponse> reponses=new ArrayList<Reponse>();
 	
 	public int getIdq() {
 		return idq;
